@@ -1,0 +1,175 @@
+.attribution {
+  font-size: 11px;
+margin-right:38px ;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition:all .2s ;
+}
+body {
+
+  background-color: hsl(216, 50%, 16%);
+  display: grid;
+  place-content: center;
+}
+.card {
+  padding: 20px;
+  background: #59779d;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  min-height: 20vh;
+  border-radius: 15px;
+}
+.theimg {
+  display: flex;
+  justify-content: center;
+}
+.theimg img {
+  width: 18em;
+  z-index: 1;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.wordq{
+  position: absolute;
+  padding-top:111px;
+  font-size:57px;
+  color: hsl(0, 0%, 0%);
+  font-weight:900;
+}
+.wordq:hover{
+  opacity:0;
+}
+.theimg img:hover{
+  opacity:0.3;
+cursor: pointer;
+}
+.the-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #eeee;
+  padding: 15px 0px 9px 1px;
+  width:180px;
+  cursor: pointer;
+}
+.the-title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.description {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  color: rgb(171, 215, 235);
+  padding: 5px;
+}
+.the-icon_words {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 19px;
+  padding-left: 5px;
+  font-size: 12px;
+  position: relative;
+  color: rgb(171, 215, 235);
+}
+.icon img {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -3px;
+}
+.words {
+  position: absolute;
+  padding-left: 5px;
+  color: hsl(178, 100%, 50%);
+}
+.icon2 img {
+  position: absolute;
+  margin-left: -19px;
+  margin-top: -3px;
+}
+.icon2 {
+  padding-left: 5px;
+}
+
+.laststuf{
+    margin-top:20px;
+    border-top: 1px solid rgba(87, 83, 83, 0.459);
+    padding-top: 30px;
+    display: flex;
+    justify-content:around;
+}
+.the-img img{
+  width:2em;
+border:3px solid rgb(255, 255, 255);
+border-radius: 50%;    
+}
+.auther-name{
+    padding:12px 0px 0px 8px;
+    padding-left: 8px;
+    color:hsl(215, 51%, 70%);
+}
+.color-word{
+    color:white;
+    cursor: pointer;
+}
+.color-word:hover{
+color:hsl(178, 100%, 50%);
+cursor: pointer;
+}
+
+
+
+
+
+
+@media (max-width:375px) {
+body{
+  display: grid;
+  place-content: center;
+}
+
+  .card{
+  padding:18px;
+  width: 70%;
+  margin:40px auto;
+ min-height: 10px;
+  margin-bottom: 10px;
+}  
+  .theimg img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .wordq{
+  padding-top: 80px;
+  }
+  .card .the-title{
+    font-size:15px !important;
+   width: 121px 
+  }
+.description{
+  font-size:12px !important;
+  padding: 0px;
+}
+.attribution{
+margin: 12px auto ;
+padding-top:20px ;
+}
+.the-img img{
+  width:1.6em
+}
+.color-word ,.auther-name{
+  font-size:12px;
+  width:140px
+}
+.laststuf{
+  padding-top:14px ;
+}
+}
+
+
